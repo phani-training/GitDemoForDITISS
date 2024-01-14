@@ -31,10 +31,19 @@
 - We shall make git to keep track of the files in this folder by initializing the Git. 
 - Add Files and code if required to it.  
 - U shall check the status of the repostory using git status 
+- for the files to add, U should first stage them. 
+- Staging is a environment that makes git track your file for any changes U make to it. 
+- U commit(updating) the added files into the git, there by making it available as a version. 
+- Any commit will create a new version of the files. 
+- log command will keep track of the commits U have made with the recent one on the top. 
 ### Important Commands
 ```
 git init
 git status
+git add files seperated by space
+git add .
+git commit -m "message to store"
+git log 
 ```
 ### Cloning Remote location
 ### Pushing local Repo to Remote
