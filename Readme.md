@@ -38,6 +38,7 @@
 - log command will keep track of the commits U have made with the recent one on the top. 
 - U can use options to directly commit to the git without staging it. 
 - We can use diff to find the differences in the code. 
+- To remove files from the git repo, we can use rm command with a mandatory option --cached. 
 ### Important Commands
 ```
 git init
@@ -48,7 +49,12 @@ git commit -m "message to store"
 git commit -a -m "Commit without staging"
 git log 
 git diff
+git rm --cached filename
 ```
 ### Cloning Remote location
+- U can get the copy of any public repository available remotely with tools like Github, Gitlab and BitBucket. 
+- git clone url_of_the_Repo
+- U can make changes to it. 
+- U can push the updated code back.
 ### Pushing local Repo to Remote
 ### Branches
