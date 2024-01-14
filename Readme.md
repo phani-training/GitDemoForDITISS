@@ -37,6 +37,7 @@
 - Any commit will create a new version of the files. 
 - log command will keep track of the commits U have made with the recent one on the top. 
 - U can use options to directly commit to the git without staging it. 
+- We can use diff to find the differences in the code. 
 ### Important Commands
 ```
 git init
@@ -46,6 +47,7 @@ git add .
 git commit -m "message to store"
 git commit -a -m "Commit without staging"
 git log 
+git diff
 ```
 ### Cloning Remote location
 ### Pushing local Repo to Remote
